@@ -21,9 +21,16 @@ addToDoButton.addEventListener('click', function(){
 })
 
 inputField.addEventListener('keypress', function(event){
-    if (event.key === "Enter") {
+    if (event.key == "Enter") {
         event.preventDefault;
         addToDoButton.click();
     }
 })
 
+/* deletes all the current tasks*/
+window.addEventListener('keypress', function(event){
+    if(event.key == "-"){
+        event.preventDefault;
+        toDoContainer.innerHTML = '';
+    }
+})
