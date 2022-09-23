@@ -1,0 +1,64 @@
+html, body {
+    height: 100%;
+    background-color: wheat;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.container{
+    width: 360px;
+}
+
+#icon{
+    background-color: lightgreen;
+    width: 350px;
+    margin: 20px 0px;
+    box-shadow: 1px 2px 5px gray;
+    border-radius: 10px;
+}
+
+#inputField{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 300px;
+    height: 46px;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+    border-radius: 6px;
+}
+
+#addToDo{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    vertical-align: middle;
+    font-size: 30px;
+    border-radius: 6px;
+    background-color: lightgreen;
+    cursor: pointer;
+    transition: .1s ease-in-out;
+}
+
+#addToDo:hover{
+    background-color: tan;
+}
+
+.to-dos{
+    margin-top: 25px;
+}
+
+.paragraph-styling{
+    margin: 0;
+    cursor: pointer;
+    font-size: 23px;
+}
